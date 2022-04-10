@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+@import './components/ExpenseItem.scss';
+@import './components/ExpenseDate.scss';
+@import './components/Expenses.scss';
 
 * {
   box-sizing: border-box;
@@ -10,6 +13,6 @@ html {
 
 body {
   margin: 0;
-  background-color: #3f3f3f;
+  background-color: orange;
 }
 
